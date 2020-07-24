@@ -57,6 +57,9 @@ Intuitively, we might expect that the unstructured problem is easier, because th
 | N = 20 | 74.12%                | 13.5%                    | 91.75 %               | 18.75 %                  |
 
 *Note* : These accuracies are from Evaluation Set ( 20 Alphabets).
+* wA_Acc == Within Alphabet Accuracy 
+* uA_Acc == Unstructured Alphabet Accuracy 
+* NN Acc ==  1 - Nearest Neighbour Accuracy
 
 ## Visualize 20-way pairs
 
@@ -130,7 +133,8 @@ Intuitively, we might expect that the unstructured problem is easier, because th
 
 ## Future Work
 
-There are few Implementation details mentioned in the paper, that could drastically improve the model's performance, ex - differential learning rate on layers
+There are few Implementation details mentioned in the paper, that could drastically improve the model's performance, ex - differential learning rate on layers.
+In the research paper, they presented a model with wA Accuracy around 92%. 
 
 - [x] Create Base model
 - [x] Compare L1 vs L2 results
