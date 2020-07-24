@@ -38,11 +38,21 @@ Intuitively, we might expect that the unstructured problem is easier, because th
 |Evaluation Set (10 Alphabets) | 78.0 %| 89.0 %|
 |Evaluation Set (20 Alphabets) | 74 %                | 88.0 %                   |
 
+
+### Training Accuracy and Training Loss
+
 ![loss_acc.png](./output/loss_acc.png)
+
+
+### One Shot Accuracy on Validation Set
 
 ![training_one_shot_acc.png](./output/training_one_shot_acc.png)
 
+
+### One Shot Accuracy on Test Data
+
 ![Testing_acc.png](./output/Testing_acc.png)
+
 
 ## Detailed Accuracies
 
