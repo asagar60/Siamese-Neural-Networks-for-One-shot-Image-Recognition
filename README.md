@@ -121,7 +121,7 @@ Intuitively, we might expect that the unstructured problem is easier, because th
 
     I trained the model for 500000 iterations where each iterations corresponds to batch training and evaluating the model for every 500 epochs ( when trained on 500 batches).
 
-    Optimizer used here is SGD with initial learning rate as 0.01 and initial momentum as 0.5. Learning rate were decayed by 1 percent per 5000 iterations. ( Paper suggested decaying learning rate per epoch, where epoch here corresponds to 1 iteration over the training set, which is almost same as our approach). We linearly increase the momentum by 0.01 per 5000 iterations till it converges to 0.9.
+    Optimizer used here is SGD with initial learning rate as 0.001 and initial momentum as 0.5. Learning rate were decayed by 1 percent per 5000 iterations. ( Paper suggested decaying learning rate per epoch, where epoch here corresponds to 1 iteration over the training set, which is almost same as our approach). We linearly increase the momentum by 0.01 per 5000 iterations till it converges to 0.9.
 
     Accuracy on both within alphabet and Unstructured alphabet pairs were pretty good. Observed around 78% on Within alphabet and 91 % on unstructured alphabet pairs ( 20-way ) when tested on validation set
 
