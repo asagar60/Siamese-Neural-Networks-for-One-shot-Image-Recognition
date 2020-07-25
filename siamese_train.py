@@ -348,4 +348,4 @@ if __name__ == "__main__":
     #216000
     #model.train_on_data(load_prev_model = True)
 
-    model.train_on_data(load_prev_model = True)
+    model.train_on_data(load_prev_model = False)
