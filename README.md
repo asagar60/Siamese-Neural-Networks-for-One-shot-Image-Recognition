@@ -150,7 +150,7 @@ In the research paper, they presented a model with wA Accuracy around 92%.
 - [x] Compare L1 vs L2 results
 - [x] Compare SGD vs Adam results
 - [x] Model Implementation
-- [ ] Implementation differential learning rate to improve accuracy
+- [ ] Implementation of differential learning rate (layer wise learning) to improve accuracy
 - [ ] Check with different training sizes
 
 
