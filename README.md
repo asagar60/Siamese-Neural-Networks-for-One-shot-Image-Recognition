@@ -36,7 +36,7 @@ Intuitively, we might expect that the unstructured problem is easier, because th
 |--------|-----------------------|--------------------------|
 |Validation set  | 78.0 %| 91.0% |
 |Evaluation Set (10 Alphabets) | 78.0 %| 89.0 %|
-|Evaluation Set (20 Alphabets) | 74 %                | 88.0 %                   |
+|Evaluation Set (20 Alphabets) | 74 %                | 91.0 %                   |
 
 
 ### Training Accuracy and Training Loss
